@@ -1,0 +1,3 @@
+case_id,sequence_type,array_path,L3_4,L4_5,L5_S1
+case_001,T2WI,/path/to/case_001_T2WI.npy,1,1,0
+case_001,T2FS,/path/to/case_001_T2FS.npy,1,1,0
