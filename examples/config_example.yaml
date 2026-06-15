@@ -1,0 +1,17 @@
+data:
+  label_csv: examples/example_labels_schema.csv
+  data_dir: /path/to/converted_arrays
+
+training:
+  mode: mixed
+  bag_size: 10
+  lambda_prior: 0.20
+  batch_size: 8
+  max_epochs: 100
+  patience: 10
+  seed: 42
+
+model:
+  encoder: custom_four_block_cnn
+  feature_dim: 128
+  num_outputs: 3
